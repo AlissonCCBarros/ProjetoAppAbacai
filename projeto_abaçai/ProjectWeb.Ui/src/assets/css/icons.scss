@@ -1,0 +1,946 @@
+/* ================================================== SASS Icons ========================================== */
+//Site Icons
+/*### Sprite arrows ###*/
+.icons-arrows:before{
+    content:"";
+    background-image:url(../imagens/icons/sprite-arrows.png);
+    position:relative;
+    background-repeat:no-repeat;
+}
+.icon-arrows-up:before{
+    width:13px;
+    height:9px;
+    background-position:-22px 0;
+}
+.icon-arrows-bottom:before{
+    width:13px;
+    height:9px;
+    background-position:0px 0px;
+}
+/*icon-exit // Calendar*/
+.arrows-left-white-min:before{
+    width:15px;
+    height:11px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-41px -335px;   
+}
+.arrows-right-white-min:before{
+    width:15px;
+    height:11px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-64px -335px;   
+}
+/*### Icons ###*/
+/*Icons Sprite*/
+.icons:before{
+    content:"";
+    background-image:url(../imagens/icons/sprite-icons.png);
+    margin-right:10px;
+    background-repeat:no-repeat;
+}
+.icons span{
+    display:inline-block;
+    vertical-align:middle;
+}
+.icons-left.icons:before,.icons-right.icons:before{
+    position:absolute;
+    margin:0px;
+}
+/*icon-msg-min*/
+.icon-msg-min:before {
+    width:22px;
+    height:16px;
+    background-position:0px 0px;
+}
+
+/*icon-key-min*/
+.icon-key-min:before{
+    width:28px;
+    height:16px;
+    background-position:-32px 0px;
+}
+/*icon-erro-min*/
+.icon-erro-min:before{
+    width:20px;
+    height:20px;
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    background-position:0 -25px;
+}
+/*icon-v-round-min*/
+.icon-v-round-min:before{
+    width:20px;
+    height:20px;
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    background-position:-30px -25px;
+}
+/*icon-v-min*/
+.icon-v-min:before{
+    width:16px;
+    height:13px;
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    background-position:-52px -54px;
+}
+/*icon-round-empty-min*/
+.icon-round-empty-min:before{
+    width:17px;
+    height:15px;
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    background-position:-59px -25px;
+}
+/*icon-ok*/
+.icon-ok:before{
+    width:34px;
+    height:34px;
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    background-position:0 -78px;
+}
+/*icon-edit*/
+.icon-edit:before{
+    width:19px;
+    height:23px;
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    background-position:2px -153px;   
+}
+/*icon-lock*/
+.icon-lock:before{
+    width:19px;
+    height:23px;
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    background-position:-25px -153px;   
+}
+/*icon-notification*/
+.icon-notification:before{
+    width:17px;
+    height:20px;
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    background-position:-51px -153px;   
+}
+/*icon-favorite*/
+.icon-favorite:before{
+    width:19px;
+    height:23px;
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    background-position:-77px -152px;   
+}
+/*icon-exit*/
+.icon-exit:before{
+    width:19px;
+    height:23px;
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    background-position:-105px -151px;   
+}
+/*icon-lupa-min*/
+.icon-lupa-min:before{
+    width:23px;
+    height:23px;
+    background-position:-43px -122px;
+}
+/*Icons status >> Status*/
+/*icon-round-green-min*/
+.icon-round-green-min:before{
+    width:11px;
+    height:11px;
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    background-position:0px -418px;
+}
+/*icon-round-blue-min*/
+.icon-round-blue-min:before{
+    width:11px;
+    height:11px;
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    background-position:-21px -418px;
+}
+/*icon-round-yellow-min*/
+.icon-round-yellow-min:before{
+    width:11px;
+    height:11px;
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    background-position:-42px -418px;
+}
+/*icon-round-cinza-min*/
+.icon-round-cinza-min:before{
+    width:11px;
+    height:11px;
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    background-position:-63px -418px;
+}
+.icon-round-red-min:before{
+    width:11px;
+    height:11px;
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    background-position:-84px -418px;
+}
+/*Icons middle >> Titles*/
+/*icon-news-middle*/
+.icon-news-middle:before{
+    width:30px;
+    height:20px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:0px -252px;   
+}
+/*icon-hand-middle*/
+.icon-hand-middle:before{
+    width:36px;
+    height:25px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-340px -252px;   
+}
+/*icon-gear-middle*/
+.icon-gear-middle:before{
+    width:26px;
+    height:25px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-131px -295px;   
+}
+/*icon-team-middle*/
+.icon-team-middle:before{
+    width: 31px;
+    height: 22px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position: -156px -252px;  
+}
+/*icon-human-graphic-middle*/
+.icon-human-graphic-middle:before{
+    width: 32px;
+    height: 23px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-224px -252px;  
+}
+/*icon-check-middle*/
+.icon-check-middle:before{
+    width:19px;
+    height:25px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-197px -252px; 
+}
+/*icon-news-middle*/
+.icon-doc-coluns-middle:before{
+    width:20px;
+    height:23px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-97px -252px;   
+}
+/*icon-two-balloon-middle*/
+.icon-two-balloon-middle:before{
+    width: 31px;
+    height: 26px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-position: -299px -252px;
+}
+/*icon-balloon-interrogation-middle*/
+.icon-balloon-interrogation-middle:before{
+    width: 25px;
+    height: 27px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-position: -265px -252px;
+}
+/*icon-spreadsheet-middle*/
+.icon-spreadsheet-middle:before{
+    width:20px;
+    height:24px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-126px -252px;   
+}
+/*icon-doc-middle*/
+.icon-doc-middle:before{
+    width:19px;
+    height:22px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-39px -254px;   
+}
+/*icon-doc-middle*/
+.icon-agenda-middle:before{
+    width:19px;
+    height:22px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-68px -254px;   
+}
+
+/*icon-sino-middle*/
+.icon-sino-middle:before{
+    width:19px;
+    height:22px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-68px -254px;   
+}
+/*icon-lupa-middle*/
+.icon-lupa-middle:before{
+    width:25px;
+    height:23px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-75px -122px;  
+}
+/*.icon-pdf-stamp*/
+.icon-pdf-stamp:before{
+    width:23px;
+    height:31px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-99px -295px;   
+}
+/*.icon-doc-stamp*/
+.icon-doc-stamp:before{
+    width:23px;
+    height:31px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:0px -295px;   
+}
+/*.icon-zip-stamp*/
+.icon-zip-stamp:before{
+    width:23px;
+    height:31px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-66px -295px;   
+}
+/*.icon-mp3-stamp*/
+.icon-mp3-stamp:before{
+    width:23px;
+    height:31px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-33px -295px;   
+}
+/*Icons de responses*/
+/*icon-v-middle*/
+.icon-v-middle:before{
+    width:19px;
+    height:17px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-25px -53px; 
+}
+/*icon-min*/
+/*icon-min / .icon-agenda-min*/
+.icon-agenda-min:before{
+    width:17px;
+    height:17px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-134px -153px;   
+}
+/*icon-min / .icon-check-min*/
+.icon-check-min:before{
+    width:14px;
+    height:17px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-160px -153px;   
+}
+/*icon-min / .icon-key-min*/
+.icon-key-min:before{
+    width:23px;
+    height:22px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position: -245px -125px;  
+}
+/*icon-min / .icon-key-cinza-min*/
+.icon-key-cinza-min:before{
+    width:28px;
+    height:22px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position: -32px 2px;
+}
+/*icon-min / .icon-eye-min*/
+.icon-eye-min:before{
+    width:23px;
+    height:14px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-183px -153px;   
+}
+/*icon-min / .icon-chat-min*/
+.icon-chat-min:before{
+    width:28px;
+    height:23px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-99px -353px;   
+}
+/*icon-min / .icon-chat-min :hover*/
+.icon-chat-min:hover:before{
+    background-position:-62px -353px;
+}
+/*icon-min / .icon-star-min*/
+.icon-star-min:before{
+    width:23px;
+    height:23px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-168px -353px;   
+}
+/*icon-min / icon-star-min :hover*/
+.icon-star-min:hover:before{
+    background-position:-136px -353px;
+}
+/*icon-min / .icon-download-min*/
+.icon-download-min:before{
+    width:26px;
+    height:23px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-236px -353px; 
+}
+/*icon-min / icon-download-min :hover*/
+.icon-download-min:hover:before{
+    background-position:-200px -353px;
+}
+.icon-download-min:hover span{
+
+    color:$red;
+}
+/*icon-min / .icon-print-min*/
+.icon-print-min:before{
+    width:26px;
+    height:23px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-306px -353px;   
+}
+/*icon-min / icon-print-min :hover*/
+.icon-print-min:hover:before{
+    background-position:-272px -353px;
+}
+/*icon-min / .icon-like-min*/
+.icon-like-min:before{
+    width:22px;
+    height:20px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:0px -354px;
+}
+/*icon-min / .icon-like-min :hover*/
+.icon-like-min:hover:before{
+    background-position:-31px -354px;
+}
+/*Icons black*/
+/*icon-min / .icon-msg-min-black*/
+.icon-msg-min-black:before{
+    width: 19px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-position: -134px -129px; 
+}
+/*icon-min / .icon-telephone-min-black*/
+.icon-telephone-min-black:before{
+    width:20px;
+    height:18px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-position: -161px -126px;
+}
+/*icon-min / .icon-link-min-black*/
+.icon-link-min-black:before{
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-position: -191px -123px;
+}
+/*icon-min / .icon-team-min-black*/
+.icon-team-min-black:before{
+    width: 25px;
+    height: 21px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-position: -216px -151px;
+}
+/*icon-min / .icon-check-min-black*/
+.icon-check-min-black:before{
+    width:18px;
+    height:18px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-position:-250px -153px;
+}
+/*icon-min / .icon-trash-min-black*/
+.icon-trash-min-black:before{
+    width:18px;
+    height:18px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-position:-278px -153px;
+}
+/*icon-min / .icon-linked-answer-min-black*/
+.icon-linked-answer-min-black:before{
+    width:20px;
+    height:21px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-position:-305px -153px;
+}
+/*icon-min / .icon-checkin-min-black:*/
+.icon-checkin-min-black:before{
+    width: 19px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-position:-155px -153px; 
+}
+/*Icons After*/
+/*icon-arrows-bottom-min / After*/
+.icon-arrows-up-min:after{
+    content:"";
+    background-image:url(../imagens/icons/sprite-arrows.png);
+    width:10px;
+    height:11px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-100px -15px;
+    margin-left:4px;
+}
+/*icon-arrows-up-min-escuro / After*/
+.icon-arrows-up-min-escuro:after{
+    content:"";
+    background-image:url(../imagens/icons/sprite-arrows.png);
+    background-repeat: no-repeat;
+    width:10px;
+    height:11px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-208px -15px;
+    margin-left:4px;
+}
+/*icon-arrows-bottom-min-escuro*/
+.icon-arrows-bottom-min-escuro:after{
+    content:"";
+    background-image:url(../imagens/icons/sprite-arrows.png);
+    background-repeat: no-repeat;
+    width:10px;
+    height:11px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-192px -15px;
+    margin-left:4px;
+}
+/*.icon-arrows-bottom-min / After*/
+.icon-arrows-bottom-min:after{
+    content:"";
+    background-image:url(../imagens/icons/sprite-arrows.png);
+    width:10px;
+    height:11px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-80px -15px;
+    margin-left:4px;
+}
+/*icon-arrows-right-min / After*/
+.icon-arrows-right-min:after{
+    content:"";
+    background-image:url(../imagens/icons/sprite-arrows.png);
+    width:10px;
+    height:11px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-15px -16px;
+    margin-left:4px;
+}
+/*icon-arrows-before-left-min / before*/
+.icon-arrows-before-left-min:before{
+    content:"";
+    background-image:url(../imagens/icons/sprite-arrows.png);
+    width:7px;
+    height:11px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:1px -16px;
+    margin-right:5px;
+}
+/*icon-arrows-before-right-min / before*/
+.icon-arrows-before-right-min:before{
+    content:"";
+    background-image:url(../imagens/icons/sprite-arrows.png);
+    width:7px;
+    height:11px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-15px -16px;
+    margin-right:2px;
+} 
+/*icon-arrows-right-min-red / before*/
+.icon-arrows-right-min-red:before{
+    width:10px;
+    height:11px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-176px -16px;
+    margin-right:4px;
+}
+/*.icon-arrows-up-min-red:after*/
+.icon-arrows-up-min-red:after{
+    content:"";
+    background-image:url(../imagens/icons/sprite-arrows.png);
+    background-repeat: no-repeat;
+    width:10px;
+    height: 6px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position: -120px -17px;
+    margin-left:4px;
+}
+/*.icon-arrows-bottom-min-red:after*/
+.icon-arrows-bottom-min-red:after{
+    content:"";
+    background-image:url(../imagens/icons/sprite-arrows.png);
+    background-repeat: no-repeat;
+    width:10px;
+    height: 6px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-140px -17px;
+    margin-left:4px;
+}
+/*icon-arrows-up-min-escuro / After*/
+.icon-arrows-up-min-white:after{
+    content:"";
+    background-image:url(../imagens/icons/sprite-arrows.png);
+    background-repeat: no-repeat;
+    width:10px;
+    height:11px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-112px 0px;
+    margin-left:4px;
+}
+/*icon-arrows-bottom-min-white*/
+.icon-arrows-bottom-min-white:after{
+    content:"";
+    background-image:url(../imagens/icons/sprite-arrows.png);
+    background-repeat: no-repeat;
+    width:10px;
+    height:11px;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    background-position:-92px 0px;
+    margin-left:4px;
+}
+
+/*Color tags*/
+/*Color tags light-blue*/
+.tags.light-blue a{
+    border-right:2px solid #68cee7;
+    border-top:2px solid #68cee7;
+    border-bottom:2px solid #68cee7;
+}
+.tags.light-blue:before{
+    background-position:0px 0px;
+}
+/*Color tags Hover*/
+.tags.light-blue:hover a,.tags.selected.light-blue a{
+    background-color:#68cee7;
+}
+/*Color tags Selected*/
+.tags.light-blue:hover:before,.tags.selected.light-blue:before{
+    background-position:-26px 0px;
+}
+/*Color tags navy-blue*/
+.tags.navy-blue a{
+    border-right:2px solid #7698eb;
+    border-top:2px solid #7698eb;
+    border-bottom:2px solid #7698eb;
+}
+.tags.navy-blue:before{
+    background-position:0px -259px;
+}
+/*Color tags Hover*/
+.tags.navy-blue:hover a,.tags.selected.navy-blue a{
+    background-color:#7698eb;
+}
+/*Color tags Selected*/
+.tags.navy-blue:hover:before,.tags.selected.navy-blue:before{
+    background-position:-26px -259px;
+}
+/*Color tags Green*/
+.tags.green a{
+    border-right:2px solid #31dba4;
+    border-top:2px solid #31dba4;
+    border-bottom:2px solid #31dba4;
+}
+.tags.green:before{
+    background-position:0px -37px;
+}
+/*Color tags Hover*/
+.tags.green:hover a,.tags.selected.green a{
+    background-color:#31dba4;
+}
+/*Color tags Selected*/
+.tags.green:hover:before,.tags.selected.green:before{
+    background-position:-26px -37px;
+}
+
+/*Color tags pink*/
+.tags.pink a{
+    border-right:2px solid #ff92ab;
+    border-top:2px solid #ff92ab;
+    border-bottom:2px solid #ff92ab;
+}
+.tags.pink:before{
+    background-position:0 -148px;
+}
+/*Color tags Hover*/
+.tags.pink:hover a,.tags.selected.pink a{
+    background-color:#ff92ab;
+}
+/*Color tags Selected*/
+.tags.pink:hover:before,.tags.selected.pink:before{
+    background-position:-26px -148px;
+}
+
+/*Color tags gold*/
+.tags.gold a{
+    border-right:2px solid #d8ce51;
+    border-top:2px solid #d8ce51;
+    border-bottom:2px solid #d8ce51;
+}
+.tags.gold:before{
+    background-position:0 -74px;
+}
+/*Color tags Hover*/
+.tags.gold:hover a,.tags.selected.gold a{
+    background-color:#d8ce51;
+}
+/*Color tags Selected*/
+.tags.gold:hover:before,.tags.selected.gold:before{
+    background-position:-26px -74px;
+}
+
+/*Color tags purple*/
+.tags.purple a{
+    border-right:2px solid #c692eb;
+    border-top:2px solid #c692eb;
+    border-bottom:2px solid #c692eb;
+}
+.tags.purple:before{
+    background-position:0 -111px;
+}
+/*Color tags Hover*/
+.tags.purple:hover a,.tags.selected.purple a{
+    background-color:#c692eb;
+}
+/*Color tags Selected*/
+.tags.purple:hover:before,.tags.selected.purple:before{
+    background-position:-26px -111px;
+}
+/*Color tags orange*/
+.tags.orange a{
+    border-right:2px solid #ff9a4f;
+    border-top:2px solid #ff9a4f;
+    border-bottom:2px solid #ff9a4f;
+}
+.tags.orange:before{
+    background-position:0 -185px;
+}
+/*Color tags Hover*/
+.tags.orange:hover a,.tags.selected.orange a{
+    background-color:#ff9a4f;
+}
+/*Color tags Selected*/
+.tags.orange:hover:before,.tags.selected.orange:before{
+    background-position:-26px -185px;
+}
+/*Color tags red*/
+.tags.red a{
+    border-right:2px solid #ff7070;
+    border-top:2px solid #ff7070;
+    border-bottom:2px solid #ff7070;
+}
+.tags.red:before{
+    background-position:0 -222px;
+}
+/*Color tags Hover*/
+.tags.red:hover a,.tags.selected.red a{
+    background-color:#ff7070;
+}
+/*Color tags Selected*/
+.tags.red:hover:before,.tags.selected.red:before{
+    background-position:-26px -222px;
+}
+/*##icons Redes Sociais##*/
+/* icon-facebook */
+.icon-facebook:before{
+    width:25px;
+    height:27px;
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    background-position:3px -184px;   
+}
+.icon-facebook:hover:before{
+   background-position:3px -217px;   
+}
+/* icon-twitter */
+.icon-twitter:before{
+    width:25px;
+    height:27px;
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    background-position:-38px -183px;   
+}
+.icon-twitter:hover:before{
+   background-position:-38px -214px;   
+}
+/* icon-flickr */
+.icon-flickr:before{
+    width:25px;
+    height:27px;
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    background-position:-82px -183px;   
+}
+.icon-flickr:hover:before{
+    background-position:-82px -214px;   
+}
+/* icon-linkedin */
+.icon-linkedin:before{
+    width:25px;
+    height:27px;
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    background-position:-127px -182px;   
+}
+.icon-linkedin:hover:before{
+   background-position:-127px -214px;   
+}
+/* icon-youtube */
+.icon-youtube:before{
+    width:25px;
+    height:27px;
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    background-position:-174px -183px;   
+}
+.icon-youtube:hover:before{
+   background-position:-174px -217px;   
+}
+/*icon-left-border*/
+.icon-left-border{
+    img{
+        display:inline-block;
+        vertical-align:middle;
+    }
+}
+/*.icon-msg-min * height*/ // /*.icon-key-cinza-min * height*/
+.icons-left.icon-msg-min:before,
+.icons-left.icon-key-cinza-min:before{
+    margin-top:-8px;
+}
+/*.icon-lupa-min * height*/
+.icons-left.icon-lupa-min:before{
+    margin-top:-11px;
+}
+.standard-large.icons-left:before,.standard-large-44.icons-left:before{
+    top:50%;
+    left:15px;
+}
+.standard-large.icons-right:before,.standard-large-44.icons-right:before{
+    top:50%;
+    right:15px;
+}
+.standard-large.icons-left input,.standard-large-44.icons-left input{padding-left:50px;}
+.standard-large.icons-right input,.standard-large-44.icons-right input{padding-right:50px;}
+/* ================================================== // ====================================================== */

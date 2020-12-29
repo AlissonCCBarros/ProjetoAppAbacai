@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="RestSharp" Version="106.6.9" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Project.Dto\Project.Dto.csproj" />
+    <ProjectReference Include="..\Project.Enum\Project.Enum.csproj" />
+    <ProjectReference Include="..\Project.Filter\Project.Filter.csproj" />
+    <ProjectReference Include="..\Project.Repository\Project.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Helper\" />
+  </ItemGroup>
+
+</Project>

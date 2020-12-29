@@ -1,0 +1,105 @@
+/* iCheck plugin Minimal skin
+----------------------------------- */
+ /*icheck*/
+ .skin-section input[type=checkbox], .skin-section input[type=radio] {position: absolute;top: 2px;left: 0;}	
+ /*Bg*/
+.icons-sprite-red-min
+.icheckbox_minimal,
+.icons-sprite-red-min
+.iradio_minimal,
+.icons-sprite-cinza
+.icheckbox_minimal,
+.icons-sprite-cinza
+.iradio_minimal{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    background: url(../css/plugins/icheck/minimal/icones-check-min.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+/*Widths Red*/
+.icons-sprite-red-min
+.icheckbox_minimal,
+.icons-sprite-red-min
+.iradio_minimal{
+    width:18px;
+    height:18px;
+}
+/*Widths Cinza*/
+.icons-sprite-cinza
+.icheckbox_minimal,
+.icons-sprite-cinza
+.iradio_minimal{
+    width:16px;
+    height:17px;
+}
+/*icons-sprite-red-min*/
+.icons-sprite-red-min .icheckbox_minimal {
+	background-position: 0 0;
+}
+.icons-sprite-red-min .icheckbox_minimal.hover {
+	background-position: -40px 0;
+}
+.icons-sprite-red-min .icheckbox_minimal.checked {
+	background-position:-40px 0;
+}
+/* radio*/
+.icons-sprite-red-min .iradio_minimal {
+    background-position:-26px 0;
+}
+.icons-sprite-red-min .iradio_minimal.hover {
+    background-position:0 0;
+}
+.icons-sprite-red-min .iradio_minimal.checked {
+    background-position:0 0;
+}
+
+
+
+/*icons-check-cinza*/
+.icons-sprite-cinza .icheckbox_minimal {
+    background-position: -74px 0;
+}
+.icons-sprite-cinza .icheckbox_minimal.hover {
+    background-position: -50px 0;
+}
+.icons-sprite-cinza .icheckbox_minimal.checked {
+    background-position:-50px 0;
+}
+/* radio*/
+.icons-sprite-cinza .iradio_minimal {
+    background-position:-26px 0;
+}
+.icons-sprite-cinza .iradio_minimal.hover {
+    background-position:0 0;
+}
+.icons-sprite-cinza .iradio_minimal.checked {
+    background-position:0 0;
+}
+
+/*envolve-icheck*/
+.envolve-icheck{
+    .skin-section input{
+        float:left;
+    }
+}
+
+/*
+.icons-sprite-cinza .icheckbox_minimal.disabled {
+    background-position:-74px 0;
+    cursor: default;
+}
+.icons-sprite-cinza .icheckbox_minimal.checked.disabled {
+    background-position: -80px 0;
+}*/
+/* HiDPI support 
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+    .icons-check-cinza .icheckbox_minimal,
+    .iradio_minimal {
+        background-image: url(icons-check-cinza.png);
+        -webkit-background-size: 200px 20px;
+        background-size: 200px 20px;
+    }
+}*/
